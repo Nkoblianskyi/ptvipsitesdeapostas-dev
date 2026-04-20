@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Trophy } from "lucide-react"
 
 export function Header() {
@@ -53,6 +54,7 @@ export function Header() {
               }}
             >
               <Image src="/srij.svg" alt="SRIJ" width={24} height={24} />
+            </div>
           </div>
         </div>
       </div>
