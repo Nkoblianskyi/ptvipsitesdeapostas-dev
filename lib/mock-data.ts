@@ -25,15 +25,33 @@ export interface BettingSite {
 }
 
 export const bettingSites: BettingSite[] = [
-  {
+    {
     id: 1,
+    name: "Betclic",
+    logo: "/betclic.svg",
+    category: "BÓNUS DE BOAS-VINDAS",
+    bonus: "100% Até 20€",
+    rating: 9.8,
+    stars: 5,
+    reviews: 4141,
+    reviewCount: 3075,
+    url: "https://www.betclic.pt/",
+    featured: true,
+    badges: ["MELHOR AVALIAÇÃO"],
+    isPopular: true,
+    terms: "18+ | Jogo seguro e responsável | Licença SRIJ | Aplicam-se termos e condições",
+    disclaimer:
+      "18+. Apenas novos clientes. Bónus de 100% até 20€ no primeiro depósito. Odds mínimas de 1.50. Rollover de 3x o valor do bónus. Válido por 21 dias. Licença SRIJ. Jogue responsavelmente.",
+  },
+  {
+    id: 2,
     name: "BWIN",
     logo: "/bwin.png",
     category: "BÓNUS DE BOAS-VINDAS",
     bonus: "Aposta Grátis por Nossa Conta!",
-    rating: 9.8,
+    rating: 9.7,
     stars: 5,
-    reviews: 3718,
+    reviews: 4286,
     reviewCount: 3718,
     url: "https://www.bwin.pt/",
     featured: true,
@@ -44,7 +62,7 @@ export const bettingSites: BettingSite[] = [
       "18+. Novos clientes apenas. Aposta grátis disponível após primeiro depósito qualificativo. T&Cs aplicam-se. Licença SRIJ. Jogue responsavelmente.",
   },
   {
-    id: 2,
+    id: 3,
     name: "Betano",
     logo: "/betano.svg",
     category: "BÓNUS DE BOAS-VINDAS",
@@ -63,24 +81,7 @@ export const bettingSites: BettingSite[] = [
       "18+. Promoção para novos utilizadores. 10€ em apostas grátis mais 50 rodadas grátis no registo. Depósito mínimo de 10€. Requisitos de rollover aplicam-se. Válido 30 dias. Licença SRIJ. Jogue responsavelmente.",
     isTopRating: true,
   },
-  {
-    id: 3,
-    name: "Betclic",
-    logo: "/betclic.svg",
-    category: "BÓNUS DE BOAS-VINDAS",
-    bonus: "100% Até 20€",
-    rating: 9.4,
-    stars: 5,
-    reviews: 3075,
-    reviewCount: 3075,
-    url: "https://www.betclic.pt/",
-    featured: true,
-    badges: ["MELHOR AVALIAÇÃO"],
-    isPopular: true,
-    terms: "18+ | Jogo seguro e responsável | Licença SRIJ | Aplicam-se termos e condições",
-    disclaimer:
-      "18+. Apenas novos clientes. Bónus de 100% até 20€ no primeiro depósito. Odds mínimas de 1.50. Rollover de 3x o valor do bónus. Válido por 21 dias. Licença SRIJ. Jogue responsavelmente.",
-  },
+
   {
     id: 4,
     name: "Solverde",
