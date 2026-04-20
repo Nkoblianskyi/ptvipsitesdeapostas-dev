@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-import { Star, Trophy, ExternalLink } from "lucide-react"
+import { Star, ExternalLink } from "lucide-react"
 import { bettingSites } from "@/lib/mock-data"
 
 export function TopSitesModal() {
@@ -46,7 +46,6 @@ export function TopSitesModal() {
             className="py-3 px-6 flex items-center justify-center gap-2"
             style={{ borderBottom: "1px solid rgba(255,255,255,0.07)" }}
           >
-            <Trophy className="w-4 h-4" style={{ color: "#f0a500" }} />
             <h3
               className="font-bold text-sm font-mono uppercase tracking-widest"
               style={{ color: "#f0a500" }}

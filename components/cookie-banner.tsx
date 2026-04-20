@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { Cookie } from "lucide-react"
+
 
 export function CookieBanner() {
   const [isVisible, setIsVisible] = useState(false)
@@ -46,15 +46,6 @@ export function CookieBanner() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           {/* Content */}
           <div className="flex items-start gap-3 flex-1">
-            <div
-              className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-lg mt-0.5"
-              style={{
-                background: "rgba(240,165,0,0.10)",
-                border: "1px solid rgba(240,165,0,0.24)",
-              }}
-            >
-              <Cookie className="w-4 h-4" style={{ color: "#f0a500" }} />
-            </div>
             <div>
               <p className="text-sm leading-relaxed" style={{ color: "#64748b" }}>
                 Este site utiliza cookies para melhorar a sua experiencia de navegacao.{" "}
