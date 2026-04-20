@@ -39,7 +39,7 @@ export default function PoliticaPrivacidadePage() {
               style={{ borderBottom: "1px solid rgba(14,242,200,0.10)" }}
             >
               <p className="font-mono text-sm font-semibold" style={{ color: "#0ef2c8" }}>
-                Última atualização: Janeiro de 2026
+                Última atualização: 2026
               </p>
             </div>
 

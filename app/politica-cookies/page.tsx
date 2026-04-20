@@ -143,7 +143,7 @@ export default function PoliticaCookiesPage() {
                 <p>
                   Esta política pode ser atualizada periodicamente para refletir alterações nas nossas práticas ou requisitos legais. Recomendamos a consulta regular desta página para se manter informado sobre como protegemos a sua privacidade.
                 </p>
-                <p className="font-mono text-xs" style={{ color: "#3d5068" }}>Última atualização: Janeiro de 2026</p>
+                <p className="font-mono text-xs" style={{ color: "#3d5068" }}>Última atualização: 2026</p>
               </div>
             </section>
 
