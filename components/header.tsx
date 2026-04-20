@@ -22,24 +22,14 @@ export function Header() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 select-none group">
-              <div
-                className="flex items-center justify-center w-8 h-8 rounded-lg"
-                style={{
-                  background: "rgba(240,165,0,0.12)",
-                  border: "1px solid rgba(240,165,0,0.30)",
-                }}
-              >
-                <Trophy className="w-4 h-4" style={{ color: "#f0a500" }} />
-              </div>
+              <Image src="/favicon.ico" alt="Logo" width={24} height={24} />
+
               <div className="flex flex-col leading-none">
                 <span
                   className="font-bold text-base tracking-tight"
                   style={{ color: "#f0a500" }}
                 >
-                  PT VIP
-                </span>
-                <span className="text-[10px] font-mono uppercase tracking-[0.15em]" style={{ color: "#64748b" }}>
-                  sitesdeapostas.com
+                  PT VIPsitesdeapostas
                 </span>
               </div>
             </Link>

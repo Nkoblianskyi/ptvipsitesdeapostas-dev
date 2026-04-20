@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Trophy } from "lucide-react"
+import Image from "next/image"
 
 const orgs = [
   {
@@ -17,12 +17,12 @@ const orgs = [
     url: "https://www.gamcare.org.uk",
     imgUrl: "/gamecare.svg",
   },
-   {
+  {
     name: "Jogo Responsável Portugal",
     url: "https://jogoresponsavel.pt/",
     imgUrl: "/jogo2.png",
   },
-   {
+  {
     name: "ICAD Portugal",
     url: "https://www.icad.pt/",
     imgUrl: "/icad.png",
@@ -51,21 +51,18 @@ export function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-5 mb-5">
 
             {/* Brand */}
-            <div className="flex items-center gap-2.5 flex-shrink-0">
-              <div
-                className="flex items-center justify-center w-7 h-7 rounded-lg"
-                style={{
-                  background: "rgba(240,165,0,0.10)",
-                  border: "1px solid rgba(240,165,0,0.25)",
-                }}
-              >
-                <Trophy className="w-3.5 h-3.5" style={{ color: "#f0a500" }} />
-              </div>
+            <Link href="/" className="flex items-center gap-2.5 select-none group">
+              <Image src="/favicon.ico" alt="Logo" width={24} height={24} />
+
               <div className="flex flex-col leading-none">
-                <span className="font-bold text-sm" style={{ color: "#f0a500" }}>PT VIP Sites de Apostas</span>
-                <span className="text-[10px] font-mono" style={{ color: "#64748b" }}>ptvipsitesdeapostas.com</span>
+                <span
+                  className="font-bold text-base tracking-tight"
+                  style={{ color: "#f0a500" }}
+                >
+                  PT VIPsitesdeapostas
+                </span>
               </div>
-            </div>
+            </Link>
 
             {/* Legal links */}
             <div className="flex items-center gap-5 text-xs" style={{ color: "#64748b" }}>
