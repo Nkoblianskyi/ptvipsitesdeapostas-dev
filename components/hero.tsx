@@ -97,8 +97,8 @@ export function Hero() {
                     color: "#f0a500",
                   }}
                 >
-                  <Shield className="w-3 h-3" />
-                  Licenca SRIJ
+                  <Image src="/srij.svg" alt="Licenca" width={16} height={16} />
+                  Licenca
                 </button>
 
                 <button

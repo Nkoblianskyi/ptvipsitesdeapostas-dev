@@ -52,12 +52,7 @@ export function Header() {
                 color: "#f0a500",
               }}
             >
-              <span
-                className="w-1.5 h-1.5 rounded-full animate-pulse"
-                style={{ background: "#f0a500" }}
-              />
-              Licenca SRIJ
-            </div>
+              <Image src="/srij.svg" alt="SRIJ" width={24} height={24} />
           </div>
         </div>
       </div>
